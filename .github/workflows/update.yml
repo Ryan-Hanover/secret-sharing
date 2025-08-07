@@ -8,5 +8,5 @@ jobs:
     steps:
       - uses: pwncollege/dojo-update@v1
         with:
-          dojo: example
+          dojo: example~d8c2e672
           update_code: ${{ secrets.UPDATE_CODE }}
